@@ -13,6 +13,7 @@ public class ServiceA implements IServiceA {
 	public int plus(int left, int right) {
 		
 		int result = right + left ;
+
 		
 		System.out.println("method=plus, left="+left + ", right=" + right + ", result=" + result);
 		
